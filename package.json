@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "dermecks-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "It's a blog.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "dermeck",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/dermeck"
   },
   "dependencies": {
     "gatsby": "^3.4.1",
@@ -35,9 +35,9 @@
   "devDependencies": {
     "prettier": "2.2.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "",
   "keywords": [
-    "gatsby"
+    
   ],
   "license": "0BSD",
   "main": "n/a",
