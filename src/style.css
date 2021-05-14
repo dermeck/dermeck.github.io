@@ -54,7 +54,8 @@
   --fontSize-5: 2.488rem;
   --fontSize-6: 2.986rem;
   --fontSize-7: 3.583rem;
-  --color-primary: #005b99;
+  /* --color-primary: #005b99; */
+  --color-primary: #1e5d8a;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
