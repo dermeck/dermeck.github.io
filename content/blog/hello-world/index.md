@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: "2021-05-14"
-description: "Hello World"
+description: "A welcome post ..."
 ---
 Hello World, I am Martin and this is my playground. 
 
