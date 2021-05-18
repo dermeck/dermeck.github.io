@@ -1,6 +1,6 @@
 ---
 title: Why is there JavaScript in my static side?
-date: "2021-05-16"
+date: "2021-05-18"
 description: "Today I realised that Gatsby is shipping JavaScript files and I was wondering why."
 ---
 
@@ -22,4 +22,4 @@ Turns out I was wrong. I did some research and the number one source of knowledg
 
  I'm not sure and in the end it might not really matter how this is labeled exaclty. 
  
- The important learning of the day is that Gatsby ships JavaScript files. I also found a blog post where they described why [Why Gatsby is better with JavaScript](https://www.gatsbyjs.com/blog/2020-01-30-why-gatsby-is-better-with-javascript/).
+ The important learning of the day is that Gatsby ships JavaScript files. I also found a [blog post](https://www.gatsbyjs.com/blog/2020-01-30-why-gatsby-is-better-with-javascript/) where they described why.
