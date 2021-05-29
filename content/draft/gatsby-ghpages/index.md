@@ -39,7 +39,7 @@ Check all packages and proceed with enter.
 
 ## Tweaking the Site
 
-With that all one we can look at our blog with:
+With that all done we can look at our blog with:
 ```bash
 yarn develop
 ```
@@ -71,12 +71,12 @@ git push --set-upstream origin dev
 ## Deployment
 
 ```
-npm install gh-pages --save-dev
+yarn add gh-pages --save-dev
 ```
 
 
 
 ```
-npm run deploy
+yarn deploy
 ```
 
