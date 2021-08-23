@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DERMECK'S Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 29 May 2021 14:02:10 GMT</lastBuildDate><item><title><![CDATA[Turn Websites into "Desktop Apps" with Chrome Shortcuts]]></title><description><![CDATA[A handy feature of Chrome lets you create Shortcuts for websites. You can configure it under . This way the website feels like a Desktop-App…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/website-to-desktop-app/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/website-to-desktop-app/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;A handy feature of Chrome lets you create &lt;em&gt;Shortcuts&lt;/em&gt; for websites.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[DERMECK'S Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 23 Aug 2021 10:03:56 GMT</lastBuildDate><item><title><![CDATA[Show Composite Layers In Chrome DevTools]]></title><description><![CDATA[While rendering the browser paints the elements on potentientally more than one layer. Those are composed into the final image that is drawn…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/composite-layers/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/composite-layers/</guid><pubDate>Mon, 23 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;While rendering the browser paints the elements on potentientally more than one layer. Those are composed into the final image that is drawn to the screen.&lt;/p&gt;
+&lt;p&gt;In the Chrome DevTools those layers can be inspected.&lt;/p&gt;
+&lt;h2&gt;Show Layer Borders in Rendering Tab&lt;/h2&gt;
+&lt;p&gt;Go to &lt;code class=&quot;language-text&quot;&gt;Chrome &amp;gt; More tools &amp;gt; Rendering&lt;/code&gt;. Here you can select &lt;code class=&quot;language-text&quot;&gt;Layer Borders&lt;/code&gt; which will … well draw borders around the layers on the screen.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6ddee0c5e645512ce98277fe5f491c0f/c2d13/mozilla-layer-borders.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.06329113924051%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACZUlEQVQoz3WR3UuTYRiH338h6i/ouCIqqoMIKvAgqUhYECEkWvOrlApjUmFBaSdBB0qgCUHFsIMghKADy81tbnMfzrn8SklZuU2de7/28X5c4bsVCnbDj+d57ue5L373/QiZdIpIOETQ5yFQUXDcQzQUtBSLhJj7Pk0kFGLM4ycUDOD1uPF6xvB6vIz7vPjHvbhcbtyjXxEwNBRF5n9h6hqJ+BSg/8vJeRlz+xvAMMurYBpGOWno1pWu65ZKxQJoGtFIhJrLl4h9aQVxhKIOiiqWa0wD0zR3SMA0LEDYHyERnyUWnWFxYZnNzSzt7e00NjXR3HKLE0f3szo/bIHUglwBmrsDDcNgZDRGMLKAmi9sNUBkYY3m23epvlDNmXNnOXLsOMmV1QpQ2dbszhAwdAvompaI/SzDtiKZ2qC75zlXa2wcPniIvfv2MDczW56hKmEYplWnVUakG2VjApUZ7haKIiHG5lmJzzHzYwlKmpXP5jbIZNbI5URESbakKAqSLCPoBZXJyRgTgQDhiRBej48xt8c6J6ZiJH6lkcQlWIsSXl8mU5LJbWZJpTMWpFAooJVKlst8Po+QVyQc9zu5aKvnWn0rXY8ctDTWcd7WgN1u51nPR2rejWAfHuC0/xMTuSQFSST5e5VsNouqqmWoplEsFhEUWcLheEjVlTZ6XvThfPuGD0NO2u50Unujjvf3nNi6JunofcX1z0PkFuOIqmy1LMuy5ezvj2/tBUUWabjZSrWtlsdPnzA4OMDL/n46mho5eaqKvu5eHN98HHC6eND/GmZDrOcVUqm05a5UKlnujMqn/AEjkP3RJaXIAQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Layers Tab&quot;
+        title=&quot;Layers Tab&quot;
+        src=&quot;/static/6ddee0c5e645512ce98277fe5f491c0f/f058b/mozilla-layer-borders.png&quot;
+        srcset=&quot;/static/6ddee0c5e645512ce98277fe5f491c0f/c26ae/mozilla-layer-borders.png 158w,
+/static/6ddee0c5e645512ce98277fe5f491c0f/6bdcf/mozilla-layer-borders.png 315w,
+/static/6ddee0c5e645512ce98277fe5f491c0f/f058b/mozilla-layer-borders.png 630w,
+/static/6ddee0c5e645512ce98277fe5f491c0f/40601/mozilla-layer-borders.png 945w,
+/static/6ddee0c5e645512ce98277fe5f491c0f/78612/mozilla-layer-borders.png 1260w,
+/static/6ddee0c5e645512ce98277fe5f491c0f/c2d13/mozilla-layer-borders.png 2560w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Analyze Layers in Performance Tab&lt;/h2&gt;
+&lt;p&gt;To analyze the layers in the Chrome Performance Tab you first have to activate &lt;code class=&quot;language-text&quot;&gt;enable advanced paint instrumentation&lt;/code&gt; in the &lt;a href=&quot;https://developer.chrome.com/docs/devtools/evaluate-performance/reference/#settings&quot;&gt;Recording Settings&lt;/a&gt; - those can be found when clicking the gear icon in the Performance Tab.&lt;/p&gt;
+&lt;p&gt;Now you can record a Performance Snapshot as usual. When analyzing the profile you can select a certain frame and inspect the corresponding layer information in the Layers Tab.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/751ad9c451aa2d1b90917b5bf580df80/c2d13/mozilla-layers.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.06329113924051%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACY0lEQVQoz32R22sTQRTG9+/yVX0QRXwRRQRFEaxIi/qgPhhrtdY+FSpVhEItVdEK4g1BQbA02fSWpiVUe0mvaW2abDZ7m83uJLs/2U0s+OLAx3fON2e+mXNGyWQyFItFFnNZ5mamyGZmmEyrpJJJ0qkUE2ozTo4381hLq6RVlXRKZSKVZnpykolkEnXsB4oQgt3dMtMLGusFA0IwbYfN7QK75TIV08QUgqptYzg2piswHIeSrmPXajieh/A9HK+G47ooAMKVvBvbJpcvRSm6UWU5/wvDqqCbZXRLo2prVC0tjiOt0tJ1q7xfU9L3mobRevVimNs3rzOfL5Bb2WIut8Rydgu7KDB+O/uotvCvZses79oos1NT9Pc/pvtBFxeuJWjrHuaHukCxVKSwU6Jq2BiWwBHefyHcJpRHnaMcPHiAs5c6uNgzSnvfJ3I/N1haXqZqWvE8q6aNW6vheV4Tvh9zrRVHe3vlMutbBZTeN99pb+/g5K1nHLrSx9Ezl6loGgtLK0gp/06ERqOB9P2Y6/U6si4JwxDCMM43t3fIr2+irK2t8OHjZ0a+zXNv4DX3OxOUtAqLK6uYlhW/JGwdisxc18WpOQgpCMKAIAhwhCC/vhF3o3z58pXBoZc8Hxpk4MlT3rx9z+rqKntaBd/341dGhyKODC3HQrMqiJogCMJYi+pKFb1peOPmXY6dbmP01QgPe3o5fuIUmdksshHExZFZ3KKU++xJr3lBvU4QNFoXCQzLRkkkujh34Tx3OhNc7Wjn6OEjjI2r2MLdb9mXEimjuTVRrzdi9n0Z70UfE5lFhn8AZrISHRl9wpIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Layers Tab&quot;
+        title=&quot;Layers Tab&quot;
+        src=&quot;/static/751ad9c451aa2d1b90917b5bf580df80/f058b/mozilla-layers.png&quot;
+        srcset=&quot;/static/751ad9c451aa2d1b90917b5bf580df80/c26ae/mozilla-layers.png 158w,
+/static/751ad9c451aa2d1b90917b5bf580df80/6bdcf/mozilla-layers.png 315w,
+/static/751ad9c451aa2d1b90917b5bf580df80/f058b/mozilla-layers.png 630w,
+/static/751ad9c451aa2d1b90917b5bf580df80/40601/mozilla-layers.png 945w,
+/static/751ad9c451aa2d1b90917b5bf580df80/78612/mozilla-layers.png 1260w,
+/static/751ad9c451aa2d1b90917b5bf580df80/c2d13/mozilla-layers.png 2560w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Turn Websites into "Desktop Apps" with Chrome Shortcuts]]></title><description><![CDATA[A handy feature of Chrome lets you create Shortcuts for websites. You can configure it under . This way the website feels like a Desktop-App…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/website-to-desktop-app/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/website-to-desktop-app/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;A handy feature of Chrome lets you create &lt;em&gt;Shortcuts&lt;/em&gt; for websites.&lt;/p&gt;
 &lt;p&gt;You can configure it under &lt;code class=&quot;language-text&quot;&gt;Chrome &amp;gt; More tools &amp;gt; Create shortcut&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;This way the website feels like a Desktop-App since it is separated from the browser window. It integrates well in GNOME (3.38.3). Like normal applications it can be launched from the Activities-View and added to the Dock.&lt;/p&gt;
 &lt;p&gt;Finally, for me there’s no need for (unofficial) Electron wrappers anymore if I miss a Desktop version of an App.&lt;/p&gt;
