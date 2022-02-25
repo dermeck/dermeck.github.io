@@ -14,7 +14,7 @@ Generator Functions are functions that can be exited and later re-entered. Their
 They are declared via `function*` keyword.
 
 ```javascript
-function* generator() {
+function* generator() {git
   yield 1;
   yield 2;
 }
@@ -50,14 +50,16 @@ function request(url) {
     });
 }
 
-function main() {
+function* main() {
     var result1 = yield request("url1");
     var data = JSON.parse(result1);
 
     var result2 = yield request("url2?id=" + data.id);
     var resp = JSON.parse(result2);
-
 }
+
+var it = main();
+it.next(); // start
 ``` 
 
 ### Ressources:
