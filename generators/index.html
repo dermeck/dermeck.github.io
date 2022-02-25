@@ -6,7 +6,7 @@
 <p>Generator Functions are functions that can be exited and later re-entered. Their context (variable bindings) will be saved across re-entrances.</p>
 <h3>Declaration</h3>
 <p>They are declared via <code class="language-text">function*</code> keyword.</p>
-<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">function</span><span class="token operator">*</span> <span class="token function">generator</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">function</span><span class="token operator">*</span> <span class="token function">generator</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>git
   <span class="token keyword">yield</span> <span class="token number">1</span><span class="token punctuation">;</span>
   <span class="token keyword">yield</span> <span class="token number">2</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre></div>
@@ -34,14 +34,16 @@ console<span class="token punctuation">.</span><span class="token function">log<
     <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 
-<span class="token keyword">function</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">function</span><span class="token operator">*</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">var</span> result1 <span class="token operator">=</span> <span class="token keyword">yield</span> <span class="token function">request</span><span class="token punctuation">(</span><span class="token string">"url1"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token keyword">var</span> data <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>result1<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
     <span class="token keyword">var</span> result2 <span class="token operator">=</span> <span class="token keyword">yield</span> <span class="token function">request</span><span class="token punctuation">(</span><span class="token string">"url2?id="</span> <span class="token operator">+</span> data<span class="token punctuation">.</span>id<span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token keyword">var</span> resp <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>result2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
 
-<span class="token punctuation">}</span></code></pre></div>
+<span class="token keyword">var</span> it <span class="token operator">=</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+it<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// start</span></code></pre></div>
 <h3>Ressources:</h3>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=o3A9EvMspig">Understanding Generator Functions &#x26; Using Redux Saga</a></li>
