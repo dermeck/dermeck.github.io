@@ -4,7 +4,7 @@ module.exports = {
     title: `DERMECK'S Blog`,
     author: {
       name: `Martin`,
-      summary: `who is not a man of many words. And self-descriptions are totally his thing.`,
+      summary: `who is not a man of many words. And self-descriptions are totally his thing. He likes squirrels.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
