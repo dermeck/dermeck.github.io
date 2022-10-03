@@ -1,6 +1,9 @@
 # Donwload Youtube Videos
 
-CLI Tool `youtube-dl`
+## Firefox Plugin
+https://addons.mozilla.org/de/firefox/addon/easy-youtube-video-download/
+
+## CLI Tool `youtube-dl`
 
 ```bash
 # install
